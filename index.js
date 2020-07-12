@@ -26,7 +26,7 @@ function johnLennonFacts(facts){
 * Return the array with the strings `"I love the Beatles!"`.*/
 function iLoveTheBeatles(num){
   var empty = []
-  let num = 0
+  var num = 0
   do {
     ++num
     empty.push("I love the Beatles!")
