@@ -26,9 +26,8 @@ function johnLennonFacts(facts){
 * Return the array with the strings `"I love the Beatles!"`.*/
 function iLoveTheBeatles(num){
   var empty = []
-  var num = 0
+
   do {
-    ++num
     empty.push("I love the Beatles!")
-  } while (num < 15)
+  } while (++num < 15)
 }
